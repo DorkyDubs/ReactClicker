@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 
 import "./App.css";
+import ShopButton from "./Componenets/ShopButton";
+import Storedisplay from "./Componenets/StoreDisplay";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -47,8 +49,10 @@ function App() {
   element that user can click to increase count
   list of (mapped) shop items the user can buy [//!stretch add visual feedback to show if user can buy it (conditional rendering)//
   ].
-  
+
   */}
+
+      <Storedisplay />
     </>
   );
 }
