@@ -1,0 +1,26 @@
+.store-div {
+  position: relative;
+  width: 60vw;
+
+  font-size: 1rem;
+  height: 2.5rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  justify-items: center;
+  outline: 1px solid rgb(73, 72, 72);
+  gap: 5vw;
+
+  background-color: rgb(116, 122, 120);
+}
+
+.store-div:active {
+  background-color: #242424;
+  border-color: #242424;
+  outline-color: #242424;
+  color: rgb(220, 113, 236);
+  filter: drop-shadow(0 0 0.5em rgb(219, 80, 240));
+}

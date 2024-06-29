@@ -1,0 +1,26 @@
+button {
+  /* position: absolute; */
+  right: 0px;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  color: blanchedalmond;
+  font-style: italic;
+  border: 2px groove aquamarine;
+  width: 15vw;
+  align-content: center;
+  justify-items: center;
+  justify-content: end;
+}
+button:hover {
+  filter: drop-shadow(0 0 0.5em cyan);
+  /* filter: invert(); */
+  border-width: 2px;
+  border-color: rgb(101, 242, 195);
+}
+button:active {
+  background-color: #242424;
+  border-color: transparent;
+  filter: drop-shadow(0 0 0 rgb(219, 80, 240));
+  border-style: ridge;
+  color: rgb(220, 113, 236);
+}
