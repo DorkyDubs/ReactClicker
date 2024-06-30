@@ -17,18 +17,16 @@ export default function ShopButton(prop) {
   }
   // conditional here to render button if enough cookies.
 
-  if (prop.currentCookie >= prop.cookieCost) {
-    return (
-      <button
-        onClick={
-          () => clickHandler()
-          // changeCount(prop.countUpdate)
-        }
-      >
-        +{prop.cookieIncrease}+
-      </button>
-    );
-  }
+  return (
+    <button
+      onClick={
+        () => clickHandler()
+        // changeCount(prop.countUpdate)
+      }
+    >
+      +{prop.cookieIncrease}+
+    </button>
+  );
 }
 
 /* // text={upgrade.toIncrease} //could remove and not pass redundant data

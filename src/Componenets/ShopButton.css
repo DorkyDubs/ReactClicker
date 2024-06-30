@@ -9,7 +9,8 @@ button {
   width: 15vw;
   align-content: center;
   justify-items: center;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
 }
 button:hover {
   filter: drop-shadow(0 0 0.5em cyan);

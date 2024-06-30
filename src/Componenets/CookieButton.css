@@ -1,9 +1,9 @@
 .cookie-button {
   box-sizing: content-box;
-  height: 20vw;
+  height: auto;
   width: 20vw;
   background-color: pink;
-  padding: 1.5em;
+  /* padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
   border-radius: 50%;
@@ -18,10 +18,17 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.cookie-button:active {
+  background-color: white;
+  border: none;
+}
+
 .cookie-img {
-  width: inherit;
-  height: inherit;
+  width: 19vw;
+  height: auto;
+  /* border: 2em; */
 }
 .cookie-img:active {
   filter: drop-shadow(0 0 2em #ffb31cdf);
+  border-style: none;
 }
