@@ -1,5 +1,5 @@
 // import {cookieCount, cookiesPerSecond} from Resou
-
+import "./DataDisplay.css";
 export default function DataDisplay(prop) {
   return (
     <>

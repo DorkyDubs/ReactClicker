@@ -11,7 +11,7 @@
 }
 .toppest-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .store {
   height: 40vw;
@@ -50,5 +50,36 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+  }
+}
+@media (max-width: 780px) {
+  .toppest-div {
+    flex-direction: column-reverse;
+  }
+  .data-display-screen {
+    h1 {
+      font-size: 1rem;
+    }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  .side-cookie {
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+    height: 45vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 1rem;
   }
 }

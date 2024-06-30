@@ -17,3 +17,11 @@
   font-weight: bolder;
   font-style: italic;
 }
+@media (max-width: 780px) {
+  .reset-button {
+    border-radius: 25%;
+    height: 15vw;
+    width: 15vw;
+    font-size: 0.8rem;
+  }
+}

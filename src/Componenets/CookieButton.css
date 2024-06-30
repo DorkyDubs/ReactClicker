@@ -4,8 +4,8 @@
   width: 20vw;
   background-color: pink;
   /* padding: 1.5em; */
-  will-change: filter;
-  transition: filter 300ms;
+  /* will-change: filter;
+  transition: filter 300ms; */
   border-radius: 50%;
   border: none;
 }
@@ -31,4 +31,16 @@
 .cookie-img:active {
   filter: drop-shadow(0 0 2em #ffb31cdf);
   border-style: none;
+}
+@media (max-width: 780px) {
+  .cookie-button {
+    height: 58px;
+    width: 58px;
+  }
+
+  .cookie-img {
+    width: 46px;
+    height: 46px;
+    /* border: 2em; */
+  }
 }

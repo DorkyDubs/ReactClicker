@@ -19,7 +19,7 @@ function App() {
   // need 2 global variables: one to store  counts an one to store  per second
 
   const [cookies, setCookies] = useState(
-    parseInt(localStorage.getItem("cookies")) || 99999999999 //! set to 0 before release
+    parseInt(localStorage.getItem("cookies")) || 9999999999999 //! set to 0 before release
   );
   function cookieSetter(data) {
     setCookies(data);
@@ -80,7 +80,7 @@ function App() {
   } else {
     return (
       <>
-        <div className="topest-div">
+        <div className="toppest-div">
           {/*//! for optimization*/}
           {/* need to display :Value of count-value of perSecond-element that user can click to increase count-list of (mapped) shop items the user can buy [//!stretch add visual feedback to show if user can buy it (conditional rendering)//].*/}
           <section className="top-container">

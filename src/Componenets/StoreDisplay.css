@@ -29,3 +29,28 @@ p {
   position: absolute;
   right: 35vw;
 }
+
+@media (max-width: 780px) {
+  .store-div {
+    width: 100vw;
+    flex-wrap: wrap;
+    /* text-wrap: wrap; */
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    justify-items: center;
+    height: 3.5rem;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}

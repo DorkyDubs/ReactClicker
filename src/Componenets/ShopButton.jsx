@@ -19,6 +19,7 @@ export default function ShopButton(prop) {
 
   return (
     <button
+      className="shopbutton"
       onClick={
         () => clickHandler()
         // changeCount(prop.countUpdate)

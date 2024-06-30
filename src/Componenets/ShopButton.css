@@ -1,4 +1,4 @@
-button {
+.shopbutton {
   /* position: absolute; */
   right: 0px;
   font-weight: bolder;
@@ -12,16 +12,28 @@ button {
   justify-content: center;
   align-items: center;
 }
-button:hover {
+.shopbutton:hover {
   filter: drop-shadow(0 0 0.5em cyan);
   /* filter: invert(); */
   border-width: 2px;
   border-color: rgb(101, 242, 195);
 }
-button:active {
+.shopbutton:active {
   background-color: #242424;
   border-color: transparent;
   filter: drop-shadow(0 0 0 rgb(219, 80, 240));
   border-style: ridge;
   color: rgb(220, 113, 236);
+}
+
+@media (max-width: 780px) {
+  .shopbutton {
+    width: auto;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
 }

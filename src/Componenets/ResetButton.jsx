@@ -17,7 +17,7 @@ export default function ResetButton({
       setTimer(setTimeTo);
       localStorage.setItem("cookies", 9999990099999); //!set to 0 before release
       localStorage.setItem("cookiesPerSecond", 0);
-      localStorage.setItem("timer", { setTimeTo }); // use prop so only resets time once winstate hit, otheriwse keeps counting.
+      localStorage.setItem("timer", { setTimeTo }); // use prop so only resets time once winstate hit, otheriwse keeps
     } else {
       cpsReset(0);
       countReset(0);
