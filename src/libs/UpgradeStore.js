@@ -125,4 +125,30 @@ export let cookieUpgrades = [
     //   return newCPS;
     // },
   },
+
+  {
+    id: 11,
+    name: "Conquer Galatic Cookie Empire",
+    cost: 100000000000,
+    toIncrease: 10000000000,
+    // ,
+
+    // increaseFunction: function increase(currentCPS) {
+    //   let newCPS = currentCPS + 1000000;
+    //   return newCPS;
+    // },
+  },
+
+  {
+    id: 12,
+    name: "Construct Gateway Singularity To Cookie Dimension",
+    cost: 1000000000000,
+    toIncrease: 100000000000,
+    // ,
+
+    // increaseFunction: function increase(currentCPS) {
+    //   let newCPS = currentCPS + 1000000;
+    //   return newCPS;
+    // },
+  },
 ];

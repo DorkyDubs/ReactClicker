@@ -5,6 +5,8 @@ import DataDisplay from "./Componenets/DataDisplay";
 import "./App.css";
 import ShopButton from "./Componenets/ShopButton";
 import Storedisplay from "./Componenets/StoreDisplay";
+import ResetButton from "./Componenets/ResetButton";
+import CookieButton from "./Componenets/CookieButton";
 // import {
 //   resourceCount,
 //   resourcePerSecond,
@@ -51,26 +53,30 @@ function App() {
   //increase value of perSecond
   // decrease count
 
+  // if (cookies >10**15){
+  //   return (
+
+  //   )
+  // }
+
+  // else{
+
   return (
     <>
       <div className="topest-div">
+        {" "}
+        {/*//! for optimization*/}
         {/* need to display :Value of count-value of perSecond-element that user can click to increase count-list of (mapped) shop items the user can buy [//!stretch add visual feedback to show if user can buy it (conditional rendering)//].*/}
         <section className="top-container">
           <section className="data-display-screen">
             <DataDisplay count={cookies} perSecond={cookiesPerSecond} />
           </section>
-          <button
-            className="cookie-button"
-            // cookieUpdateFunction={cookieSetter} //
-            onClick={() => setCookies((count) => count + 1)}
-          >
-            <img
-              src="../assets/images/cookie_bite.png"
-              className="cookie-img"
-            ></img>
-          </button>
+          <ResetButton cpsReset={setCookiesPerSecond} countReset={setCookies} />
+          <CookieButton setCookies={setCookies} />
         </section>
         <div className="side-cookie">
+          {" "}
+          {/*//! for shop styling*/}
           <Storedisplay
             className="store"
             cpsFunction={cpsSetter}
@@ -83,4 +89,7 @@ function App() {
     </>
   );
 }
+
+// } //! < --this is for top conditinal on win state
+
 export default App;

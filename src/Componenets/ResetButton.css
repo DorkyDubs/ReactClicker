@@ -1,0 +1,19 @@
+.reset-button {
+  border-radius: 25%;
+  height: 10vw;
+  width: 10vw;
+}
+
+.reset-button:hover {
+  filter: drop-shadow(0 0 0.5em red);
+  color: red;
+}
+
+.reset-button:active {
+  border: 3px groove white;
+  filter: drop-shadow(0 0 0.5em red);
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+}
