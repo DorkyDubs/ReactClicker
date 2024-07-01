@@ -26,7 +26,9 @@ export default function WinState(prop) {
         alt="You win! Here's a picture of the bestest boy for the bestest cookie collector"
         className="win-pic"
       ></img>
-      <h1 className="epilogue">{`You have gathered so many cookies it has caught the attention of the unstoppable Obiactus, who has come to feed themselves on your fortune. In total you have spent ${playTime}`}</h1>
+      <h1 className="epilogue">{`You have gathered so many cookies it has caught the attention of the unstoppable Obiactus, who has come to feed themselves on your fortune.
+      
+      In total you have spent ${playTime}`}</h1>
       <ResetButton
         cpsReset={prop.cpsReset}
         countReset={prop.countReset}

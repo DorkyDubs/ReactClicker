@@ -13,9 +13,9 @@ export default function ResetButton({
     if (noOfResets >= 4) {
       //! There is a bug that could cause problems in other instances, but here it is used as a debugging feature
       cpsReset(0);
-      countReset(9999990099999);
+      countReset(999999999);
       setTimer(setTimeTo);
-      localStorage.setItem("cookies", 9999990099999); //!set to 0 before release
+      localStorage.setItem("cookies", 999999999);
       localStorage.setItem("cookiesPerSecond", 0);
       localStorage.setItem("timer", { setTimeTo }); // use prop so only resets time once winstate hit, otheriwse keeps
     } else {

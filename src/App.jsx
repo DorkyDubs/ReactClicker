@@ -19,7 +19,7 @@ function App() {
   // need 2 global variables: one to store  counts an one to store  per second
 
   const [cookies, setCookies] = useState(
-    parseInt(localStorage.getItem("cookies")) || 9999999999999 //! set to 0 before release
+    parseInt(localStorage.getItem("cookies")) || 0 //! set to 0 before release
   );
   function cookieSetter(data) {
     setCookies(data);
