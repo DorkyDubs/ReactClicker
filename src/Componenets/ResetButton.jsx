@@ -13,7 +13,7 @@ export default function ResetButton({
     if (noOfResets >= 4) {
       //! There is a bug that could cause problems in other instances, but here it is used as a debugging feature
       cpsReset(0);
-      countReset(999999999);
+      countReset(99999999999999);
       setTimer(setTimeTo);
       localStorage.setItem("cookies", 999999999);
       localStorage.setItem("cookiesPerSecond", 0);
